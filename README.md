@@ -18,7 +18,3 @@ To illustrate this, the Gatsby site in this repo has a single page where a `<Sta
 2. Run `npm run build`
 3. Run `npm run serve`
 4. Browse to the served site and observe that the placeholder image does not disappear (since this is a race condition bug, you may or may not need to refresh a couple of times to "catch" it).
-
-## How to fix?
-
-Perhaps this script can be made synchronous by removing the `type="module"` attribute? Though I am sure there was a reason it was put there, so I don't want to make assumptions.
